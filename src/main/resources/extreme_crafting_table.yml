@@ -1,0 +1,146 @@
+# 终极工作台合成表配置
+# 格式：
+# 物品ID:
+#   材料ID: 数量
+#   材料ID: 数量
+
+# Extreme Crafting Table Recipes
+# format:
+# item_id:
+#   material_id: quantity
+#   material_id: quantity
+
+# 中子态素收集器
+neutron_collector:
+  IRON_BLOCK: 21
+  REDSTONE_BLOCK: 10
+  QUARTZ_BLOCK: 10
+  crystal_matrix_ingot: 7
+
+# 中子态素压缩机
+neutronium_compressor:
+  IRON_BLOCK: 17
+  HOPPER: 3
+  crystal_matrix_ingot: 10
+  neutron_ingot: 16
+  REDSTONE_BLOCK: 2
+  neutronium_block: 1
+
+# 寰宇肉丸
+cosmic_meatballs:
+  neutron_dust: 1
+  BEEF: 2
+  CHICKEN: 2
+  PORKCHOP: 2
+  RABBIT: 2
+  COD: 2
+
+# 超级煲
+ultimate_stew:
+  neutron_dust: 1
+  WHEAT: 2
+  CARROT: 2
+  POTATO: 2
+  RED_MUSHROOM: 2
+  BROWN_MUSHROOM: 2
+  NETHER_WART: 2
+
+# 终望珍珠
+endest_pearl:
+  END_STONE: 24
+  ENDER_PEARL: 32
+  neutron_ingot: 4
+  NETHER_STAR: 1
+
+# 无尽催化剂
+infinity_catalyst:
+  iron_singularity: 1
+  gold_singularity: 1
+  lapis_singularity: 1
+  quartz_singularity: 1
+  diamond_singularity: 1
+  emerald_singularity: 1
+  coal_singularity: 1
+  redstone_singularity: 1
+  copper_singularity: 1
+  MUSIC_DISC_13: 1       # 任意唱片 Any Music Disc
+  neutron_ingot: 1
+  neutron_nugget: 1
+  neutron_dust: 1
+  diamond_lattice: 1
+  crystal_matrix_ingot: 1
+
+# 无尽之锭
+infinity_ingot:
+  neutron_ingot: 24
+  crystal_matrix_ingot: 10
+  infinity_catalyst: 11
+
+# ========== 无尽工具系列 ==========
+# ========== Infinity Tools Series ==========
+# 世界崩解之镐
+world_breaker:
+  infinity_ingot: 19
+  crystal_matrix: 1
+  neutron_ingot: 7
+
+# 天堂颠覆之铲
+planet_heaver:
+  infinity_ingot: 19
+  crystal_matrix: 1
+  neutron_ingot: 7
+
+# 自然破坏之斧
+natures_ruin:
+  infinity_ingot: 19
+  crystal_matrix: 1
+  neutron_ingot: 7
+
+# 星球吞噬之锄
+hoe_of_the_stars:
+  infinity_ingot: 19
+  crystal_matrix: 1
+  neutron_ingot: 7
+
+# 末日之刃
+sword_of_the_cosmos:
+  infinity_ingot: 19
+  crystal_matrix: 1
+  neutron_ingot: 7
+
+# 骷髅剑
+skullfire_sword:
+  infinity_ingot: 19
+  crystal_matrix: 1
+  neutron_ingot: 7
+
+# 无尽弓
+infinity_bow:
+  infinity_ingot: 19
+  crystal_matrix: 1
+  neutron_ingot: 7
+
+# 无尽头盔
+infinity_helmet:
+  infinity_ingot: 13
+  crystal_matrix: 1
+  neutron_ingot: 5
+
+# 无尽胸甲
+infinity_chestplate:
+  infinity_ingot: 21
+  crystal_matrix: 1
+  neutron_ingot: 7
+
+# 无尽护腿
+infinity_leggings:
+  infinity_ingot: 17
+  crystal_matrix: 1
+  neutron_ingot: 6
+
+# 无尽靴子
+infinity_boots:
+  infinity_ingot: 11
+  crystal_matrix: 1
+  neutron_ingot: 4
+

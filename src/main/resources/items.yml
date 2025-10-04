@@ -1,0 +1,321 @@
+# 插件物品定义（非常规合成表物品）
+# 这些物品只能通过特殊方式获得（如终极工作台）
+# Plugin Item Definitions (Non-standard Crafting Table Items)
+# These items can only be obtained through special means (such as the Extreme Crafting Table)
+
+items:
+  # 中子态素收集器
+  neutron_collector:
+    material: BEACON
+    custom_model_data: 100
+    display_name: "items.neutron_collector.name"
+    lore:
+      - "items.neutron_collector.lore.0"
+      - "items.neutron_collector.lore.1"
+      - "items.neutron_collector.lore.2"
+  
+  # 中子素尘埃
+  neutron_dust:
+    material: IRON_NUGGET
+    custom_model_data: 100
+    display_name: "items.neutron_dust.name"
+    lore:
+      - "items.neutron_dust.lore.0"
+      - "items.neutron_dust.lore.1"
+  
+  # 中子态素粒
+  neutron_nugget:
+    material: IRON_NUGGET
+    custom_model_data: 101
+    display_name: "items.neutron_nugget.name"
+    lore:
+      - "items.neutron_nugget.lore.0"
+  
+  # 中子锭
+  neutron_ingot:
+    material: IRON_INGOT
+    custom_model_data: 100
+    display_name: "items.neutron_ingot.name"
+    lore:
+      - "items.neutron_ingot.lore.0"
+  
+  # 中子态素块
+  neutronium_block:
+    material: IRON_BLOCK
+    custom_model_data: 100
+    display_name: "items.neutronium_block.name"
+    lore:
+      - "items.neutronium_block.lore.0"
+  
+  # 钻石晶格
+  diamond_lattice:
+    material: DIAMOND
+    custom_model_data: 100
+    display_name: "items.diamond_lattice.name"
+    lore:
+      - "items.diamond_lattice.lore.0"
+  
+  # 中子态素压缩机
+  neutronium_compressor:
+    material: BEACON
+    custom_model_data: 101
+    display_name: "items.neutronium_compressor.name"
+    lore:
+      - "items.neutronium_compressor.lore.0"
+      - "items.neutronium_compressor.lore.1"
+      - "items.neutronium_compressor.lore.2"
+  
+  # 奇点系列
+  iron_singularity:
+    material: GHAST_TEAR
+    custom_model_data: 100
+    display_name: "items.iron_singularity.name"
+    lore:
+      - "items.singularity.lore.0"
+  
+  gold_singularity:
+    material: GHAST_TEAR
+    custom_model_data: 101
+    display_name: "items.gold_singularity.name"
+    lore:
+      - "items.singularity.lore.0"
+  
+  lapis_singularity:
+    material: GHAST_TEAR
+    custom_model_data: 102
+    display_name: "items.lapis_singularity.name"
+    lore:
+      - "items.singularity.lore.0"
+  
+  redstone_singularity:
+    material: GHAST_TEAR
+    custom_model_data: 103
+    display_name: "items.redstone_singularity.name"
+    lore:
+      - "items.singularity.lore.0"
+  
+  quartz_singularity:
+    material: GHAST_TEAR
+    custom_model_data: 104
+    display_name: "items.quartz_singularity.name"
+    lore:
+      - "items.singularity.lore.0"
+  
+  copper_singularity:
+    material: GHAST_TEAR
+    custom_model_data: 105
+    display_name: "items.copper_singularity.name"
+    lore:
+      - "items.singularity.lore.0"
+  
+  diamond_singularity:
+    material: GHAST_TEAR
+    custom_model_data: 106
+    display_name: "items.diamond_singularity.name"
+    lore:
+      - "items.singularity.lore.0"
+  
+  emerald_singularity:
+    material: GHAST_TEAR
+    custom_model_data: 107
+    display_name: "items.emerald_singularity.name"
+    lore:
+      - "items.singularity.lore.0"
+  
+  cosmic_meatballs:
+    material: COOKED_BEEF
+    custom_model_data: 100
+    display_name: "items.cosmic_meatballs.name"
+    lore:
+      - "items.cosmic_meatballs.lore.0"
+      - "items.cosmic_meatballs.lore.1"
+      - "items.cosmic_meatballs.lore.2"
+  
+  ultimate_stew:
+    material: SUSPICIOUS_STEW
+    custom_model_data: 100
+    display_name: "items.ultimate_stew.name"
+    lore:
+      - "items.ultimate_stew.lore.0"
+      - "items.ultimate_stew.lore.1"
+      - "items.ultimate_stew.lore.2"
+  
+  # 无尽催化剂
+  infinity_catalyst:
+    material: GHAST_TEAR
+    custom_model_data: 99
+    display_name: "items.infinity_catalyst.name"
+    lore:
+      - "items.infinity_catalyst.lore.0"
+      - "items.infinity_catalyst.lore.1"
+  
+  # 无尽之锭
+  infinity_ingot:
+    material: GOLD_INGOT
+    custom_model_data: 100
+    display_name: "items.infinity_ingot.name"
+    lore:
+      - "items.infinity_ingot.lore.0"
+      - "items.infinity_ingot.lore.1"
+  
+  # 无尽块
+  infinity_block:
+    material: GOLD_BLOCK
+    custom_model_data: 100
+    display_name: "items.infinity_block.name"
+    lore:
+      - "items.infinity_block.lore.0"
+  
+  # 终望珍珠
+  endest_pearl:
+    material: SNOWBALL
+    custom_model_data: 100
+    display_name: "items.endest_pearl.name"
+    lore:
+      - "items.endest_pearl.lore.0"
+      - "items.endest_pearl.lore.1"
+      - "items.endest_pearl.lore.2"
+  
+  # 煤炭奇点
+  coal_singularity:
+    material: GHAST_TEAR
+    custom_model_data: 107
+    display_name: "items.coal_singularity.name"
+    lore:
+      - "items.coal_singularity.lore.0"
+
+  # ========== 无尽工具系列 ==========
+  # 世界崩解之镐
+  world_breaker:
+    material: DIAMOND_PICKAXE
+    custom_model_data: 100
+    display_name: "items.world_breaker.name"
+    lore:
+      - "items.world_breaker.lore.0"
+      - "items.world_breaker.lore.1"
+      - "items.world_breaker.lore.2"
+    unbreakable: true
+    max_durability: 9999
+    enchantments:
+      EFFICIENCY: 10
+  
+  # 天堂颠覆之铲
+  planet_heaver:
+    material: DIAMOND_SHOVEL
+    custom_model_data: 100
+    display_name: "items.planet_heaver.name"
+    lore:
+      - "items.planet_heaver.lore.0"
+      - "items.planet_heaver.lore.1"
+    unbreakable: true
+    max_durability: 9999
+  
+  # 自然破坏之斧
+  natures_ruin:
+    material: DIAMOND_AXE
+    custom_model_data: 100
+    display_name: "items.natures_ruin.name"
+    lore:
+      - "items.natures_ruin.lore.0"
+      - "items.natures_ruin.lore.1"
+    unbreakable: true
+    max_durability: 9999
+  
+  # 星球吞噬之锄
+  hoe_of_the_stars:
+    material: DIAMOND_HOE
+    custom_model_data: 100
+    display_name: "items.hoe_of_the_stars.name"
+    lore:
+      - "items.hoe_of_the_stars.lore.0"
+      - "items.hoe_of_the_stars.lore.1"
+    unbreakable: true
+    max_durability: 9999
+  
+  # 末日之刃
+  sword_of_the_cosmos:
+    material: DIAMOND_SWORD
+    custom_model_data: 100
+    display_name: "items.sword_of_the_cosmos.name"
+    lore:
+      - "items.sword_of_the_cosmos.lore.0"
+      - "items.sword_of_the_cosmos.lore.1"
+    unbreakable: true
+    max_durability: 9999
+    attack_damage: 2147483647
+  
+  # 骷髅剑
+  skullfire_sword:
+    material: DIAMOND_SWORD
+    custom_model_data: 101
+    display_name: "items.skullfire_sword.name"
+    lore:
+      - "items.skullfire_sword.lore.0"
+      - "items.skullfire_sword.lore.1"
+    unbreakable: true
+    max_durability: 9999
+  
+  # 无尽弓
+  infinity_bow:
+    material: BOW
+    custom_model_data: 100
+    display_name: "items.infinity_bow.name"
+    lore:
+      - "items.infinity_bow.lore.0"
+      - "items.infinity_bow.lore.1"
+    unbreakable: true
+    max_durability: 9999
+    enchantments:
+      INFINITY: 1
+  
+  # 无尽头盔
+  infinity_helmet:
+    material: DIAMOND_HELMET
+    custom_model_data: 100
+    display_name: "items.infinity_helmet.name"
+    lore:
+      - "items.infinity_helmet.lore.0"
+      - "items.infinity_helmet.lore.1"
+    unbreakable: true
+    max_durability: 9999
+  
+  # 无尽胸甲
+  infinity_chestplate:
+    material: DIAMOND_CHESTPLATE
+    custom_model_data: 100
+    display_name: "items.infinity_chestplate.name"
+    lore:
+      - "items.infinity_chestplate.lore.0"
+      - "items.infinity_chestplate.lore.1"
+    unbreakable: true
+    max_durability: 9999
+  
+  # 无尽护腿
+  infinity_leggings:
+    material: DIAMOND_LEGGINGS
+    custom_model_data: 100
+    display_name: "items.infinity_leggings.name"
+    lore:
+      - "items.infinity_leggings.lore.0"
+      - "items.infinity_leggings.lore.1"
+    unbreakable: true
+    max_durability: 9999
+  
+  # 无尽靴子
+  infinity_boots:
+    material: DIAMOND_BOOTS
+    custom_model_data: 100
+    display_name: "items.infinity_boots.name"
+    lore:
+      - "items.infinity_boots.lore.0"
+      - "items.infinity_boots.lore.1"
+    unbreakable: true
+    max_durability: 9999
+
+  # 物质团
+  matter_cluster:
+    material: SNOWBALL
+    custom_model_data: 102
+    display_name: "items.matter_cluster.name"
+    lore:
+      - "items.matter_cluster.lore.0"

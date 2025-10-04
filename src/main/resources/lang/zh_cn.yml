@@ -1,0 +1,370 @@
+language:
+  display_name: "简体中文"
+  code: "zh_cn"
+  current: "&a当前语言: &f{0}"
+  changed: "&a语言已切换为: &f{0}"
+  not_supported: "&c不支持的语言: &f{0}"
+  available: "&a可用语言: &f{0}"
+  list_header: "&6=== 可用语言列表 ==="
+  list_format: "&e{0} &7- &f{1}"
+
+general:
+  prefix: "&8[&b无尽贪婪&8] &r"
+  reload_success: "&a配置文件重新加载成功！"
+  reload_failed: "&c配置文件重新加载失败！"
+  no_permission: "&c你没有权限执行此命令！"
+  player_only: "&c此命令只能由玩家执行！"
+  invalid_arguments: "&c参数错误！使用方法: {0}"
+
+nbt_debug:
+  no_item: "&c你必须手持一个物品！"
+  no_metadata: "&c此物品没有元数据！"
+  no_lore: "&c此物品没有描述文本！"
+  custom_model_data_string: "&aNBT模型数据 (字符串): &f{0}"
+  custom_model_data_int: "&aNBT模型数据 (整数): &f{0}"
+  no_string_data: "&c此物品没有字符串类型的NBT模型数据"
+  no_int_data: "&c此物品没有整数类型的NBT模型数据"
+  api_version: "&aAPI版本: &f{0}"
+  api_new: "1.20.5+ (字符串标识符)"
+  api_old: "传统版本 (整数值)"
+  lore_header: "&a描述文本:"
+  lore_item: "&7- {0}"
+  pdc_header: "&aPDC数据:"
+  pdc_item: "&7{0}: &f{1}"
+  no_pdc: "&c此物品没有PDC数据"
+
+recipe:
+  loaded: "&a已加载合成表: &f{0}"
+  load_success: "&a成功加载 &f{0} &a个合成表！"
+  load_failed: "&c合成表加载失败！"
+  not_found: "&c在recipe.yml中找不到recipes部分"
+
+items:
+  diamond_lattice:
+    name: "&b钻石晶格"
+    lore:
+      0: "&7一个由纯净钻石压缩而成的晶格。"
+      1: "&7蕴含着难以想象的能量。"
+  
+  crystal_matrix_ingot:
+    name: "&d水晶矩阵锭"
+    lore:
+      0: "&7由钻石晶格和下界之星融合而成。"
+      1: "&7蕴含着星空的力量。"
+  
+  crystal_matrix:
+    name: "&5水晶矩阵"
+    lore:
+      0: "&7九个水晶矩阵锭压缩而成的终极材料。"
+      1: "&7散发着紫色的神秘光芒。"
+  
+  compressed_crafting_table:
+    name: "&6压缩工作台"
+    lore:
+      0: "&7九个工作台压缩而成。"
+      1: "&7提供更强大的合成能力。"
+  
+  double_compressed_crafting_table:
+    name: "&c二重压缩工作台"
+    lore:
+      0: "&7九个压缩工作台的终极形态。"
+      1: "&7蕴含无穷的合成潜力。"
+  
+  extreme_crafting_table:
+    name: "&4&l终极工作台"
+    lore:
+      0: "&7传说中的终极合成台。"
+      1: "&7可以合成任何存在的物品。"
+      2: "&7&o\"创造的极限就是想象力的极限\""
+  
+  neutron_collector:
+    name: "&b中子态素收集器"
+    lore:
+      0: "&7一种高科技的能量收集装置。"
+      1: "&7能够捕获和储存中子态素。"
+      2: "&e右键点击查看进度"
+  
+  neutron_dust:
+    name: "&b中子素尘埃"
+    lore:
+      0: "&7从虚空中收集的神秘粒子。"
+      1: "&7蕴含着巨大的能量。"
+  
+  neutron_nugget:
+    name: "&b中子态素粒"
+    lore:
+      0: "&7压缩的中子素尘埃。"
+  
+  neutron_ingot:
+    name: "&b中子锭"
+    lore:
+      0: "&7高密度的中子态素。"
+  
+  neutronium_block:
+    name: "&b中子态素块"
+    lore:
+      0: "&7极其致密的中子态素。"
+  
+  neutronium_compressor:
+    name: "&6中子态素压缩机"
+    lore:
+      0: "&7能够将矿物压缩成奇点。"
+      1: "&7需要大量相同矿物才能生成。"
+      2: "&e右键点击使用"
+  
+  singularity:
+    lore:
+      0: "&7物质的终极压缩形态。"
+  
+  iron_singularity:
+    name: "&f铁奇点"
+  
+  gold_singularity:
+    name: "&6金奇点"
+  
+  lapis_singularity:
+    name: "&9青金石奇点"
+  
+  redstone_singularity:
+    name: "&c红石奇点"
+  
+  quartz_singularity:
+    name: "&f石英奇点"
+  
+  copper_singularity:
+    name: "&6铜奇点"
+  
+  diamond_singularity:
+    name: "&b钻石奇点"
+  
+  emerald_singularity:
+    name: "&a绿宝石奇点"
+  
+  cosmic_meatballs:
+    name: "&5&l寰宇肉丸"
+    lore:
+      0: "&7以宇宙能量烹制的终极美食。"
+      1: "&6食用后补满饱食度并溢出"
+      2: "&c力量 II (5分钟)"
+  
+  ultimate_stew:
+    name: "&6&l超级煲"
+    lore:
+      0: "&7汇聚世间所有食材的顶级炖菜。"
+      1: "&6食用后补满饱食度并大量溢出"
+      2: "&d生命恢复 II (5分钟)"
+  
+  infinity_catalyst:
+    name: "&d&l无尽催化剂"
+    lore:
+      0: "&7聚合了所有奇点的能量结晶。"
+      1: "&5用于制作无尽之锭"
+  
+  infinity_ingot:
+    name: "&b&l无尽之锭"
+    lore:
+      0: "&7超越一切的无尽材料。"
+      1: "&5用于制作无尽装备"
+  
+  infinity_block:
+    name: "&b&l无尽块"
+    lore:
+      0: "&7无尽能量的压缩形态。"
+  
+  endest_pearl:
+    name: "&5&l终望珍珠"
+    lore:
+      0: "&7蕴含毁灭之力的终极珍珠。"
+      1: "&c右键投掷后会产生吞噬一切的黑洞"
+      2: "&4最后会发生毁灭性的大爆炸！"
+
+  coal_singularity:
+    name: "&8煤炭奇点"
+    lore:
+      0: "&8压缩了无数煤炭块的超密质点"
+  
+  world_breaker:
+    name: "&b&l世界崩解之镐"
+    lore:
+      0: "&7拥有9999点耐久的无尽之镐。"
+      1: "&6Shift+右键切换镐/锤模式"
+      2: "&5附带时运 X 效果"
+  
+  planet_heaver:
+    name: "&b&l星球吞噬之铲"
+    lore:
+      0: "&7强大到可以颠覆星球的铲子。"
+      1: "&6大范围挖掘泥土、沙子等方块"
+  
+  natures_ruin:
+    name: "&b&l自然荒芜之斧"
+    lore:
+      0: "&7摧毁自然的终极伐木斧。"
+      1: "&6一键砍倒整棵树木"
+  
+  hoe_of_the_stars:
+    name: "&b&l地蕴复生之锄"
+    lore:
+      0: "&7蕴含吞噬星球之力的锄头。"
+      1: "&69×9范围耕地，超大范围"
+  
+  sword_of_the_cosmos:
+    name: "&b&l无尽寰宇之剑"
+    lore:
+      0: "&7寰宇终结的毁灭之剑。"
+      1: "&c造成极高伤害，一击秒杀"
+  
+  skullfire_sword:
+    name: "&5&l炽焰之啄颅剑"
+    lore:
+      0: "&7燃烧着灵魂之火的剑。"
+      1: "&e击杀生物必定掉落头颅"
+  
+  infinity_bow:
+    name: "&b&l天堂陨落长弓"
+    lore:
+      0: "&7射出无尽箭矢的神弓。"
+      1: "&6无需箭矢，无限射击"
+  
+  infinity_helmet:
+    name: "&b&l无尽头盔"
+    lore:
+      0: "&7无尽之力铸造的头盔。"
+      1: "&6提供完全防护，免疫所有伤害"
+      2: "&c甚至可以抵御 /kill 命令！"
+  
+  infinity_chestplate:
+    name: "&b&l无尽胸甲"
+    lore:
+      0: "&7无尽之力铸造的胸甲。"
+      1: "&6提供完全防护，免疫所有伤害"
+      2: "&c甚至可以抵御无尽寰宇之剑！"
+  
+  infinity_leggings:
+    name: "&b&l无尽护腿"
+    lore:
+      0: "&7无尽之力铸造的护腿。"
+      1: "&6提供完全防护，免疫所有伤害"
+  
+  infinity_boots:
+    name: "&b&l无尽靴子 &4S&6A&eN&aI&bC"
+    lore:
+      0: "&7无尽之力铸造的靴子。"
+      1: "&6提供完全防护，免疫所有伤害"
+  
+  matter_cluster:
+    name: "&d&l物质团"
+    lore:
+      0: "&7右键释放所有收集的物品"
+
+materials:
+  IRON_INGOT: "铁锭"
+  IRON_BLOCK: "铁块"
+  GOLD_INGOT: "金锭"
+  GOLD_BLOCK: "金块"
+  LAPIS_LAZULI: "青金石"
+  LAPIS_BLOCK: "青金石块"
+  REDSTONE: "红石粉"
+  REDSTONE_BLOCK: "红石块"
+  QUARTZ: "石英"
+  QUARTZ_BLOCK: "石英块"
+  COPPER_INGOT: "铜锭"
+  COPPER_BLOCK: "铜块"
+  DIAMOND: "钻石"
+  DIAMOND_BLOCK: "钻石块"
+  EMERALD: "绿宝石"
+  EMERALD_BLOCK: "绿宝石块"
+  NETHER_STAR: "下界之星"
+  CRAFTING_TABLE: "工作台"
+  BEACON: "信标"
+  IRON_NUGGET: "铁粒"
+  GOLD_NUGGET: "金粒"
+  BEEF: "生牛肉"
+  CHICKEN: "生鸡肉"
+  PORKCHOP: "生猪排"
+  RABBIT: "生兔肉"
+  COD: "生鳕鱼"
+  WHEAT: "小麦"
+  CARROT: "胡萝卜"
+  POTATO: "马铃薯"
+  RED_MUSHROOM: "红蘑菇"
+  BROWN_MUSHROOM: "棕蘑菇"
+  NETHER_WART: "下界疣"
+  HOPPER: "漏斗"
+
+extreme_table_gui:
+  current_item: "&e&l当前合成物品: &r{0}"
+  required_materials: "&7所需材料:"
+  put_materials: "&a将材料放入GUI中"
+  click_to_craft: "&a满足条件后点击绿宝石块合成"
+  materials_insufficient: "&c材料不足"
+  put_required_materials: "&7请放入所需材料"
+  click_craft: "&a&l点击合成"
+  materials_satisfied: "&7材料已满足"
+  craft_success: "&a成功合成: {0}"
+
+neutron_collector_gui:
+  title: "&b中子态素收集器"
+  progress: "&a进度: &f{0}%"
+  time_remaining: "&7剩余时间: &f{0}秒"
+  click_to_collect: "&e点击中间取出产物"
+  producing: "&a正在生产..."
+
+neutronium_compressor_gui:
+  title: "&6中子态素压缩机"
+  current_item: "&e当前压缩: &f{0}"
+  progress: "&a进度: &f{0}/{1} ({2}%)"
+  no_item: "&7未放入物品"
+  put_material: "&7请放入矿物块进行压缩"
+  click_output: "&e点击中间取出奇点"
+  compressing: "&a正在压缩..."
+  wrong_material: "&c当前正在压缩 {0}，无法添加其他物品！"
+  collected: "&a成功取出奇点！"
+
+error:
+  file_not_found: "&c文件不存在: {0}"
+  config_error: "&c配置文件错误: {0}"
+  unknown_error: "&c发生未知错误: {0}"
+
+success:
+  operation_complete: "&a操作完成！"
+  file_saved: "&a文件已保存: {0}"
+
+gui:
+  usage_header: "&6=== GUI命令使用方法 ==="
+  usage_edit: "&e/gui edit <大小> &7- 编辑GUI界面"
+  usage_look: "&e/gui look <大小> &7- 查看GUI界面"
+  usage_new: "&e/gui new <大小> &7- 创建新GUI界面"
+  size_note: "&7大小可以是1-54的任意数字"
+  size_examples: "&7常用: 1(单格), 5(小型), 9(单行), 18(双行), 27(三行), 54(大箱子)"
+  invalid_size: "&c无效的大小参数: {0}"
+  invalid_size_range: "&c大小 {0} 无效！必须在1-54范围内"
+  edit_title: "编辑GUI ({0}槽位)"
+  view_title: "查看GUI ({0}槽位)"
+  new_title: "新建GUI ({0}槽位)"
+  edit_opened: "&a已打开编辑模式GUI，大小: {0}槽位"
+  view_opened: "&a已打开查看模式GUI，大小: {0}槽位"
+  new_opened: "&a已打开新建模式GUI，大小: {0}槽位"
+  edit_closed: "&7编辑模式已关闭"
+  view_closed: "&7查看模式已关闭"
+  new_closed: "&7新建模式已关闭"
+  view_mode_readonly: "&c查看模式下无法修改物品！"
+  item_modified: "&7物品已修改"
+
+command:
+  help:
+    header: "&6=== 无尽贪婪插件命令 ==="
+    nbtdebug: "&e/avaritia nbtdebug &7- 显示手中物品的NBT调试信息"
+    language: "&e/avaritia language <语言> &7- 切换显示语言"
+    gui: "&e/avaritia gui <edit|look|new> <大小> &7- 打开GUI编辑器"
+    version: "&e/avaritia version &7- 显示插件版本信息"
+    reload: "&e/avaritia reload &7- 重载插件配置"
+    footer: "&7使用别名: &enbt, lang, menu"
+  reload:
+    success: "&a插件配置重载成功！"
+
+block:
+  place_disabled: "&c由于服务器性能考虑，不允许放置此方块！"
+  place_disabled_hint: "&7提示: 管理员可以在config.yml中设置 allow_place_block: true 来允许放置"
+  extreme_table_placed: "&a已放置终极工作台！"
+  extreme_table_broken: "&a已破坏终极工作台！"

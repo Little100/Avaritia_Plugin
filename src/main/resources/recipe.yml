@@ -1,0 +1,212 @@
+recipes:
+  diamond_lattice:
+    result:
+      material: DIAMOND
+      custom_model_data: "100"
+      display_name: "items.diamond_lattice.name"
+      lore:
+        - "items.diamond_lattice.lore.0"
+        - "items.diamond_lattice.lore.1"
+    shape:
+      - "D D"
+      - " D "
+      - "D D"
+    ingredients:
+      D: DIAMOND
+
+  crystal_matrix_ingot:
+    result:
+      material: DIAMOND
+      custom_model_data: "101"
+      display_name: "items.crystal_matrix_ingot.name"
+      lore:
+        - "items.crystal_matrix_ingot.lore.0"
+        - "items.crystal_matrix_ingot.lore.1"
+    shape:
+      - "DND"
+      - "DND"
+    ingredients:
+      D: avaritia:diamond_lattice
+      N: NETHER_STAR
+
+  crystal_matrix:
+    type: shapeless
+    result:
+      material: DIAMOND_BLOCK
+      custom_model_data: "100"
+      display_name: "items.crystal_matrix.name"
+      lore:
+        - "items.crystal_matrix.lore.0"
+        - "items.crystal_matrix.lore.1"
+    ingredients:
+      avaritia:crystal_matrix_ingot: 9
+
+  crystal_matrix_to_ingots:
+    type: shapeless
+    result:
+      material: DIAMOND
+      custom_model_data: "101"
+      display_name: "items.crystal_matrix_ingot.name"
+      lore:
+        - "items.crystal_matrix_ingot.lore.0"
+        - "items.crystal_matrix_ingot.lore.1"
+      amount: 9
+    ingredients:
+      avaritia:crystal_matrix: 1
+
+  compressed_crafting_table:
+    type: shapeless
+    result:
+      material: CRAFTING_TABLE
+      custom_model_data: "100"
+      display_name: "items.compressed_crafting_table.name"
+      lore:
+        - "items.compressed_crafting_table.lore.0"
+        - "items.compressed_crafting_table.lore.1"
+    ingredients:
+      CRAFTING_TABLE: 9
+
+  double_compressed_crafting_table:
+    type: shapeless
+    result:
+      material: CRAFTING_TABLE
+      custom_model_data: "101"
+      display_name: "items.double_compressed_crafting_table.name"
+      lore:
+        - "items.double_compressed_crafting_table.lore.0"
+        - "items.double_compressed_crafting_table.lore.1"
+    ingredients:
+      avaritia:compressed_crafting_table: 9
+
+  double_compressed_to_compressed:
+    type: shapeless
+    result:
+      material: CRAFTING_TABLE
+      custom_model_data: "100"
+      display_name: "items.compressed_crafting_table.name"
+      lore:
+        - "items.compressed_crafting_table.lore.0"
+        - "items.compressed_crafting_table.lore.1"
+      amount: 9
+    ingredients:
+      avaritia:double_compressed_crafting_table: 1
+
+  extreme_crafting_table:
+    result:
+      material: CRAFTING_TABLE
+      custom_model_data: "102"
+      display_name: "items.extreme_crafting_table.name"
+      lore:
+        - "items.extreme_crafting_table.lore.0"
+        - "items.extreme_crafting_table.lore.1"
+        - "items.extreme_crafting_table.lore.2"
+    shape:
+      - "CCC"
+      - "CDC"
+      - "CCC"
+    ingredients:
+      C: avaritia:crystal_matrix_ingot
+      D: avaritia:double_compressed_crafting_table
+  
+  # 中子态素粒（9个中子素尘埃）
+  neutron_nugget:
+    type: shapeless
+    result:
+      material: IRON_NUGGET
+      custom_model_data: "101"
+      display_name: "items.neutron_nugget.name"
+      lore:
+        - "items.neutron_nugget.lore.0"
+    ingredients:
+      avaritia:neutron_dust: 9
+  
+  # 中子锭（9个中子态素粒）
+  neutron_ingot:
+    type: shapeless
+    result:
+      material: IRON_INGOT
+      custom_model_data: "100"
+      display_name: "items.neutron_ingot.name"
+      lore:
+        - "items.neutron_ingot.lore.0"
+    ingredients:
+      avaritia:neutron_nugget: 9
+  
+  # 中子态素块（9个中子锭）
+  neutronium_block:
+    type: shapeless
+    result:
+      material: IRON_BLOCK
+      custom_model_data: "100"
+      display_name: "items.neutronium_block.name"
+      lore:
+        - "items.neutronium_block.lore.0"
+    ingredients:
+      avaritia:neutron_ingot: 9
+  
+  # 中子态素块反向合成（1个块→9个锭）
+  neutron_ingot_from_block:
+    type: shapeless
+    result:
+      material: IRON_INGOT
+      custom_model_data: "100"
+      display_name: "items.neutron_ingot.name"
+      lore:
+        - "items.neutron_ingot.lore.0"
+      amount: 9
+    ingredients:
+      avaritia:neutronium_block: 1
+  
+  # 中子锭反向合成（1个锭→9个粒）
+  neutron_nugget_from_ingot:
+    type: shapeless
+    result:
+      material: IRON_NUGGET
+      custom_model_data: "101"
+      display_name: "items.neutron_nugget.name"
+      lore:
+        - "items.neutron_nugget.lore.0"
+      amount: 9
+    ingredients:
+      avaritia:neutron_ingot: 1
+  
+  # 中子态素粒反向合成（1个粒→9个尘埃）
+  neutron_dust_from_nugget:
+    type: shapeless
+    result:
+      material: IRON_NUGGET
+      custom_model_data: "100"
+      display_name: "items.neutron_dust.name"
+      lore:
+        - "items.neutron_dust.lore.0"
+        - "items.neutron_dust.lore.1"
+      amount: 9
+    ingredients:
+      avaritia:neutron_nugget: 1
+  
+  # 无尽块 -> 无尽锭
+  infinity_block_to_ingots:
+    type: shapeless
+    result:
+      material: GOLD_INGOT
+      custom_model_data: "100"
+      display_name: "items.infinity_ingot.name"
+      lore:
+        - "items.infinity_ingot.lore.0"
+        - "items.infinity_ingot.lore.1"
+      amount: 9
+    ingredients:
+      avaritia:infinity_block: 1
+  
+  # 无尽锭 -> 无尽块
+  infinity_ingot_to_block:
+    type: shapeless
+    result:
+      material: GOLD_BLOCK
+      custom_model_data: "100"
+      display_name: "items.infinity_block.name"
+      lore:
+        - "items.infinity_block.lore.0"
+      amount: 1
+    ingredients:
+      avaritia:infinity_ingot: 9

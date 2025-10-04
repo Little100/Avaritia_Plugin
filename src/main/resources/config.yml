@@ -1,0 +1,50 @@
+debug: false
+
+# 默认语言 
+# default language
+default_language: "zh_cn"
+
+# 方块放置设置
+# false: 压缩工作台、二重压缩工作台、水晶矩阵禁止放置（默认）
+# true: 允许放置这些方块（会像终极工作台一样使用盔甲架显示）
+# Block place settings
+# false: Compression Table, Double Compression Table, Crystal Matrix cannot be placed (default)
+# true: Allow placing these blocks (will be displayed like Extreme Crafting Table using armor stands
+allow_place_block: false
+
+# 中子态素压缩机保护
+# false: 破坏压缩机时，只掉落压缩机本身（保持原版模组行为，默认）
+# true: 破坏压缩机时，会将内部进度转换为低阶材料掉落（如钻石块→钻石）
+# Neutron Compressor Protection
+# false: When breaking the compressor, only the compressor itself will drop (default)
+# true: When breaking the compressor, the internal progress will be converted to lower-tier materials (
+compressor_protect: false
+
+# 终极工作台设置
+# Extreme Crafting Table Settings
+extreme_crafting_table:
+  # debug模式 - 无视合成配方，随意放入材料即可合成（用于快速测试）
+  # true: 开启debug模式，无视配方
+  # false: 正常检查配方（默认）
+  # debug mode - ignore crafting recipes, just put in materials to craft (for quick testing)
+  # true: enable debug mode, ignore recipes
+  # false: normal recipe checking (default)
+  debug: false
+
+# 无尽工具设置
+# Infinity Tools Settings
+infinity_tools:
+  # World Breaker - Whether the hammer can mine bedrock (default false, protect server)
+  # 世界崩解之镐 - 锤子模式是否可以挖掘基岩（默认false，保护服务器）
+  hammer_break_bedrock: false
+  # Hammer CMD - The CMD value of the hammer (used to change material)
+  # 锤子模式的CMD值（用于改变材质）
+  hammer_cmd: 101
+  
+  # 副手骷髅剑效果传递
+  # true: 副手拿骷髅剑时，主手武器也能100%掉落头颅（默认true）
+  # false: 只有直接使用骷髅剑才能掉落头颅
+  # Skeleton Sword Effect Transfer
+  # Offhand Skullfire Effect Transfer
+  # true: When holding a skullfire sword in the offhand, the main hand weapon
+  skullfire_offhand_transfer: true

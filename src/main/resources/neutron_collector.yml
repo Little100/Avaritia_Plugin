@@ -1,0 +1,28 @@
+# 中子态素收集器配置
+# Neutron Collector Configuration
+
+# 生产设置
+production:
+  # 生产一个中子素尘埃所需的tick数（20 tick = 1秒）
+  # 默认: 7111 tick ≈ 355.55秒 ≈ 5分56秒
+  # Production ticks required to produce one Neutron Dust (20 ticks = 1 second)
+  # Default: 7111 ticks ≈ 355.55 seconds ≈ 5
+  ticks_per_item: 7111
+  
+  # 产出物品ID
+  output_item: "neutron_dust"
+
+# GUI设置
+gui:
+  # GUI标题（使用翻译键）
+  # GUI Title (use translation key)
+  title: "neutron_collector_gui.title"
+  
+  # 进度显示物品（玻璃板）
+  # Progress Display Item (Glass Pane)
+  progress_item: LIGHT_BLUE_STAINED_GLASS_PANE
+  
+  # 更新频率（tick）
+  # Update Frequency (ticks)
+  update_interval: 20
+

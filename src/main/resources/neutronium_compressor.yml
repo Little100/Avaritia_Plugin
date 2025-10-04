@@ -1,0 +1,73 @@
+# 中子态素压缩机配置
+
+# 奇点压缩配置
+# 每个材料类型可以有多种输入（物品=1点，块=9点）
+singularities:
+  iron:
+    materials:
+      IRON_INGOT: 1      # 铁锭 = 1点
+      IRON_BLOCK: 9      # 铁块 = 9点
+    required_points: 400  # 需要总点数
+    output_cmd: "101"     # 奇点的CustomModelData
+  
+  gold:
+    materials:
+      GOLD_INGOT: 1
+      GOLD_BLOCK: 9
+    required_points: 200
+    output_cmd: "102"
+  
+  lapis:
+    materials:
+      LAPIS_LAZULI: 1
+      LAPIS_BLOCK: 9
+    required_points: 400
+    output_cmd: "103"
+  
+  quartz:
+    materials:
+      QUARTZ: 1
+      QUARTZ_BLOCK: 4    # 石英块=4个石英
+    required_points: 300
+    output_cmd: "104"
+  
+  diamond:
+    materials:
+      DIAMOND: 1
+      DIAMOND_BLOCK: 9
+    required_points: 300
+    output_cmd: "105"
+  
+  emerald:
+    materials:
+      EMERALD: 1
+      EMERALD_BLOCK: 9
+    required_points: 200
+    output_cmd: "106"
+  
+  coal:
+    materials:
+      COAL: 1
+      COAL_BLOCK: 9
+    required_points: 500
+    output_cmd: "107"
+  
+  redstone:
+    materials:
+      REDSTONE: 1
+      REDSTONE_BLOCK: 9
+    required_points: 500
+    output_cmd: "108"
+  
+  copper:
+    materials:
+      COPPER_INGOT: 1
+      COPPER_BLOCK: 9
+    required_points: 400
+    output_cmd: "109"
+
+# GUI设置
+gui:
+  title: "neutronium_compressor_gui.title"
+  update_interval: 20  # 更新频率（tick）
+

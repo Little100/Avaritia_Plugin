@@ -1,0 +1,56 @@
+name: Avaritia_Plugin
+version: '1.0.0   '
+main: org.little100.avaritia_Plugin.Avaritia_Plugin
+api-version: '1.21'
+authors: [ Little_100 ]
+description: 无尽贪婪 但是插件版 - 支持Folia和多语言国际化
+website: little100.top
+folia-supported: true
+
+commands:
+  avaritia:
+    description: "无尽贪婪插件主命令"
+    usage: "/avaritia <子命令> [参数]"
+    aliases: ["av", "avar"]
+
+permissions:
+  avaritia.command:
+    description: "允许使用基础avaritia命令"
+    default: true
+  avaritia.command.nbtdebug:
+    description: "允许使用nbtdebug子命令"
+    default: op
+  avaritia.command.language:
+    description: "允许使用language子命令切换语言"
+    default: true
+  avaritia.command.version:
+    description: "允许查看插件版本信息"
+    default: true
+  avaritia.give:
+    description: "允许使用give子命令获取物品"
+    default: op
+  avaritia.gui.use:
+    description: "允许使用GUI子命令"
+    default: true
+  avaritia.gui.edit:
+    description: "允许编辑GUI界面"
+    default: op
+  avaritia.gui.create:
+    description: "允许创建新GUI界面"
+    default: op
+  avaritia.admin.reload:
+    description: "允许重新加载配置文件"
+    default: op
+  avaritia.admin.*:
+    description: "所有管理员权限"
+    default: op
+    children:
+      avaritia.command: true
+      avaritia.command.nbtdebug: true
+      avaritia.command.language: true
+      avaritia.command.version: true
+      avaritia.give: true
+      avaritia.gui.use: true
+      avaritia.gui.edit: true
+      avaritia.gui.create: true
+      avaritia.admin.reload: true

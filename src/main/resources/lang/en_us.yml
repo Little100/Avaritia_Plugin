@@ -1,0 +1,330 @@
+general:
+  prefix: "&8[&bAvaritia&8] &r"
+  reload_success: "&aConfiguration reloaded successfully!"
+  reload_failed: "&cFailed to reload configuration!"
+  no_permission: "&cYou don't have permission to execute this command!"
+  player_only: "&cThis command can only be executed by a player!"
+  invalid_arguments: "&cInvalid arguments! Usage: {0}"
+
+language:
+  display_name: "English"
+  code: "en_us"
+  current: "&aCurrent language: &f{0}"
+  changed: "&aLanguage changed to: &f{0}"
+  not_supported: "&cUnsupported language: &f{0}"
+  available: "&aAvailable languages: &f{0}"
+  list_header: "&6=== Available Languages ==="
+  list_format: "&e{0} &7- &f{1}"
+
+nbt_debug:
+  no_item: "&cYou must be holding an item!"
+  no_metadata: "&cThis item has no metadata!"
+  no_lore: "&cThis item does not have lore!"
+  custom_model_data_string: "&aCustomModelData (String): &f{0}"
+  custom_model_data_int: "&aCustomModelData (Integer): &f{0}"
+  no_string_data: "&cThis item does not have String CustomModelData"
+  no_int_data: "&cThis item does not have Integer CustomModelData"
+  api_version: "&aAPI Version: &f{0}"
+  api_new: "1.20.5+ (String identifiers)"
+  api_old: "Legacy (Integer values)"
+  lore_header: "&aLore:"
+  lore_item: "&7- {0}"
+  pdc_header: "&aPDC Data:"
+  pdc_item: "&7{0}: &f{1}"
+  no_pdc: "&cThis item has no PDC data"
+
+recipe:
+  loaded: "&aLoaded recipe: &f{0}"
+  load_success: "&aSuccessfully loaded &f{0} &arecipes!"
+  load_failed: "&cFailed to load recipes!"
+  not_found: "&cCould not find recipes section in recipe.yml"
+
+items:
+  diamond_lattice:
+    name: "&bDiamond Lattice"
+    lore:
+      0: "&7A lattice made from compressed pure diamonds."
+      1: "&7Contains unimaginable energy."
+  
+  crystal_matrix_ingot:
+    name: "&dCrystal Matrix Ingot"
+    lore:
+      0: "&7Fused from diamond lattice and nether stars."
+      1: "&7Contains the power of the stars."
+  
+  crystal_matrix:
+    name: "&5Crystal Matrix"
+    lore:
+      0: "&7Ultimate material compressed from nine crystal matrix ingots."
+      1: "&7Emits a mysterious purple glow."
+  
+  compressed_crafting_table:
+    name: "&6Compressed Crafting Table"
+    lore:
+      0: "&7Compressed from nine crafting tables."
+      1: "&7Provides enhanced crafting capabilities."
+  
+  double_compressed_crafting_table:
+    name: "&cDouble Compressed Crafting Table"
+    lore:
+      0: "&7Ultimate form of nine compressed crafting tables."
+      1: "&7Contains infinite crafting potential."
+  
+  extreme_crafting_table:
+    name: "&4&lExtreme Crafting Table"
+    lore:
+      0: "&7The legendary ultimate crafting station."
+      1: "&7Can craft anything that exists."
+      2: "&7&o\"The limit of creation is the limit of imagination\""
+  
+  neutron_collector:
+    name: "&bNeutron Collector"
+    lore:
+      0: "&7A high-tech energy collection device."
+      1: "&7Capable of capturing and storing neutrons."
+      2: "&eRight-click to view progress"
+  
+  neutron_dust:
+    name: "&bNeutron Dust"
+    lore:
+      0: "&7Mysterious particles collected from the void."
+      1: "&7Contains immense energy."
+  
+  neutron_nugget:
+    name: "&bNeutron Nugget"
+    lore:
+      0: "&7Compressed neutron dust."
+  
+  neutron_ingot:
+    name: "&bNeutron Ingot"
+    lore:
+      0: "&7High-density neutronium."
+  
+  neutronium_block:
+    name: "&bNeutronium Block"
+    lore:
+      0: "&7Extremely dense neutronium."
+
+  neutronium_compressor:
+    name: "&6Neutronium Compressor"
+    lore:
+      0: "&7Can compress minerals into singularities."
+      1: "&7Requires large amounts of the same mineral."
+      2: "&eRight-click to use"
+  
+  singularity:
+    lore:
+      0: "&7The ultimate compressed form of matter."
+  
+  iron_singularity:
+    name: "&fIron Singularity"
+  
+  gold_singularity:
+    name: "&6Gold Singularity"
+  
+  lapis_singularity:
+    name: "&9Lapis Singularity"
+  
+  redstone_singularity:
+    name: "&cRedstone Singularity"
+  
+  quartz_singularity:
+    name: "&fQuartz Singularity"
+  
+  copper_singularity:
+    name: "&6Copper Singularity"
+  
+  diamond_singularity:
+    name: "&bDiamond Singularity"
+  
+  emerald_singularity:
+    name: "&aEmerald Singularity"
+  
+  cosmic_meatballs:
+    name: "&5&lCosmic Meatballs"
+    lore:
+      0: "&7Ultimate delicacy cooked with cosmic energy."
+      1: "&6Fully restore hunger with overflow"
+      2: "&cStrength II (5 minutes)"
+  
+  ultimate_stew:
+    name: "&6&lUltimate Stew"
+    lore:
+      0: "&7Supreme stew combining all ingredients in the world."
+      1: "&6Fully restore hunger with massive overflow"
+      2: "&dRegeneration II (5 minutes)"
+  
+  infinity_catalyst:
+    name: "&d&lInfinity Catalyst"
+    lore:
+      0: "&7A crystallized energy of all singularities."
+      1: "&5Used to craft Infinity Ingots"
+  
+  infinity_ingot:
+    name: "&b&lInfinity Ingot"
+    lore:
+      0: "&7The infinite material beyond everything."
+      1: "&5Used to craft Infinity Equipment"
+  
+  infinity_block:
+    name: "&b&lInfinity Block"
+    lore:
+      0: "&7Compressed form of infinite energy."
+  
+  endest_pearl:
+    name: "&5&lEndest Pearl"
+    lore:
+      0: "&7Ultimate pearl containing destructive power."
+      1: "&cThrow to create an all-consuming black hole"
+      2: "&4Finally causes a devastating explosion!"
+
+  world_breaker:
+    name: "&b&lWorld Breaker"
+    lore:
+      0: "&7Infinity pickaxe with 9999 durability."
+      1: "&6Shift+Right-click to toggle Pickaxe/Hammer mode"
+      2: "&5Fortune X enchantment"
+  
+  planet_heaver:
+    name: "&b&lPlanet Heaver"
+    lore:
+      0: "&7Shovel powerful enough to overturn planets."
+      1: "&6Digs large areas of dirt, sand, etc."
+  
+  natures_ruin:
+    name: "&b&lNature's Ruin"
+    lore:
+      0: "&7Ultimate axe that destroys nature."
+      1: "&6Chops down entire trees instantly"
+  
+  hoe_of_the_stars:
+    name: "&b&lHoe of the Stars"
+    lore:
+      0: "&7Hoe containing planet-devouring power."
+      1: "&69×9 area tilling, massive range"
+  
+  sword_of_the_cosmos:
+    name: "&b&lSword of the Cosmos"
+    lore:
+      0: "&7Sword of universal destruction."
+      1: "&cDeals extreme damage, one-shot kills"
+  
+  skullfire_sword:
+    name: "&5&lSkullfire Sword"
+    lore:
+      0: "&7Skull sword burning with soul fire."
+      1: "&eKills always drop mob heads"
+  
+  infinity_bow:
+    name: "&b&lInfinity Bow"
+    lore:
+      0: "&7Divine bow that shoots infinite arrows."
+      1: "&6No arrows needed, infinite shots"
+  
+  infinity_helmet:
+    name: "&b&lInfinity Helmet"
+    lore:
+      0: "&7Helmet forged from infinite power."
+      1: "&6Complete protection, immune to all damage"
+      2: "&cEven resists /kill command!"
+  
+  infinity_chestplate:
+    name: "&b&lInfinity Chestplate"
+    lore:
+      0: "&7Chestplate forged from infinite power."
+      1: "&6Complete protection, immune to all damage"
+      2: "&cEven resists Sword of the Cosmos!"
+  
+  infinity_leggings:
+    name: "&b&lInfinity Leggings"
+    lore:
+      0: "&7Leggings forged from infinite power."
+      1: "&6Complete protection, immune to all damage"
+  
+  infinity_boots:
+    name: "&b&lInfinity Boots &4S&6A&eN&aI&bC"
+    lore:
+      0: "&7Boots forged from infinite power."
+      1: "&6Complete protection, immune to all damage"
+  
+  matter_cluster:
+    name: "&d&lMatter Cluster"
+    lore:
+      0: "&7Right-click to release all collected items"
+
+extreme_table_gui:
+  current_item: "&e&lCurrent Item: &r{0}"
+  required_materials: "&7Required Materials:"
+  put_materials: "&aPut materials into the GUI"
+  click_to_craft: "&aClick the emerald block to craft when ready"
+  materials_insufficient: "&cInsufficient Materials"
+  put_required_materials: "&7Please put in required materials"
+  click_craft: "&a&lClick to Craft"
+  materials_satisfied: "&7Materials satisfied"
+  craft_success: "&aSuccessfully crafted: {0}"
+
+neutron_collector_gui:
+  title: "&bNeutron Collector"
+  progress: "&aProgress: &f{0}%"
+  time_remaining: "&7Time remaining: &f{0}s"
+  click_to_collect: "&eClick center to collect"
+  producing: "&aProducing..."
+
+neutronium_compressor_gui:
+  title: "&6Neutronium Compressor"
+  current_item: "&eCurrent: &f{0}"
+  progress: "&aProgress: &f{0}/{1} ({2}%)"
+  no_item: "&7No item inserted"
+  put_material: "&7Insert mineral blocks to compress"
+  click_output: "&eClick center to collect singularity"
+  compressing: "&aCompressing..."
+  wrong_material: "&cCurrently compressing {0}, cannot add other items!"
+  collected: "&aSuccessfully collected singularity!"
+
+error:
+  file_not_found: "&cFile not found: {0}"
+  config_error: "&cConfiguration error: {0}"
+  unknown_error: "&cUnknown error occurred: {0}"
+
+success:
+  operation_complete: "&aOperation completed!"
+  file_saved: "&aFile saved: {0}"
+
+gui:
+  usage_header: "&6=== GUI Command Usage ==="
+  usage_edit: "&e/gui edit <size> &7- Edit GUI interface"
+  usage_look: "&e/gui look <size> &7- View GUI interface"
+  usage_new: "&e/gui new <size> &7- Create new GUI interface"
+  size_note: "&7Size can be any number from 1-54"
+  size_examples: "&7Common: 1(single), 5(small), 9(row), 18(double), 27(triple), 54(chest)"
+  invalid_size: "&cInvalid size parameter: {0}"
+  invalid_size_range: "&cSize {0} is invalid! Must be within 1-54 range"
+  edit_title: "Edit GUI ({0} slots)"
+  view_title: "View GUI ({0} slots)"
+  new_title: "New GUI ({0} slots)"
+  edit_opened: "&aOpened edit mode GUI, size: {0} slots"
+  view_opened: "&aOpened view mode GUI, size: {0} slots"
+  new_opened: "&aOpened new mode GUI, size: {0} slots"
+  edit_closed: "&7Edit mode closed"
+  view_closed: "&7View mode closed"
+  new_closed: "&7New mode closed"
+  view_mode_readonly: "&cCannot modify items in view mode!"
+  item_modified: "&7Item modified"
+
+command:
+  help:
+    header: "&6=== Avaritia Plugin Commands ==="
+    nbtdebug: "&e/avaritia nbtdebug &7- Show item NBT debug info"
+    language: "&e/avaritia language <lang> &7- Switch display language"
+    gui: "&e/avaritia gui <edit|look|new> <size> &7- Open GUI editor"
+    version: "&e/avaritia version &7- Show plugin version"
+    reload: "&e/avaritia reload &7- Reload plugin config"
+    footer: "&7Use aliases: &enbt, lang, menu"
+  reload:
+    success: "&aPlugin config reloaded successfully!"
+
+block:
+  place_disabled: "&cPlacing this block is disabled for server performance!"
+  place_disabled_hint: "&7Tip: Admins can set allow_place_block: true in config.yml to enable placement"
+  extreme_table_placed: "&aExtreme Crafting Table placed!"
+  extreme_table_broken: "&aExtreme Crafting Table broken!"

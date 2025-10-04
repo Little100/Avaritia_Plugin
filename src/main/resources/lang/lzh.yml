@@ -1,0 +1,372 @@
+language:
+  display_name: "文言"
+  code: "lzh"
+  current: "&a今之言: &f{0}"
+  changed: "&a言已易為: &f{0}"
+  not_supported: "&c言之不存: &f{0}"
+  available: "&a可用之言: &f{0}"
+  list_header: "&6=== 可用之言 ==="
+  list_format: "&e{0} &7- &f{1}"
+
+general:
+  prefix: "&8[&b無盡貪婪&8] &r"
+  reload_success: "&a經文再載為功！"
+  reload_failed: "&c經文再載為過！"
+  no_permission: "&c君權未及此令！"
+  player_only: "&c此令惟玩家可用！"
+  invalid_arguments: "&c引數有誤！用法: {0}"
+
+nbt_debug:
+  no_item: "&c君須手持一物！"
+  no_metadata: "&c此物無元數據！"
+  no_lore: "&c此物無述文！"
+  custom_model_data_string: "&aNBT模型數據 (字串): &f{0}"
+  custom_model_data_int: "&aNBT模型數據 (整數): &f{0}"
+  no_string_data: "&c此物無字串之NBT模型數據"
+  no_int_data: "&c此物無整數之NBT模型數據"
+  api_version: "&aAPI版本: &f{0}"
+  api_new: "1.20.5+ (字串標識)"
+  api_old: "舊版 (整數值)"
+  lore_header: "&a述文:"
+  lore_item: "&7- {0}"
+  pdc_header: "&aPDC數據:"
+  pdc_item: "&7{0}: &f{1}"
+  no_pdc: "&c此物無PDC數據"
+
+recipe:
+  loaded: "&a已載合成之法: &f{0}"
+  load_success: "&a合成之法&f{0}&a者，已載為功！"
+  load_failed: "&c合成之法載之為過！"
+  not_found: "&c於recipe.yml中未尋recipes"
+
+items:
+  diamond_lattice:
+    name: "&b鑽石晶格"
+    lore:
+      1: "&7內蘊無窮之力。"
+      0: "&7完美排列之鑽石晶體結構"
+  
+  crystal_matrix_ingot:
+    name: "&d水晶矩陣錠"
+    lore:
+      0: "&7融鑽石晶格與下界之星而成。"
+      1: "&7內蘊星辰之力。"
+  
+  crystal_matrix:
+    name: "&5水晶矩陣"
+    lore:
+      0: "&7合九水晶矩陣錠而成之極品。"
+      1: "&7散紫光之神秘。"
+  
+  compressed_crafting_table:
+    name: "&6壓縮工作臺"
+    lore:
+      0: "&7合九工作臺而成。"
+      1: "&7合成之力益強。"
+  
+  double_compressed_crafting_table:
+    name: "&c二重壓縮工作臺"
+    lore:
+      0: "&7九壓縮工作臺之極致。"
+      1: "&7蘊無窮合成之潛力。"
+  
+  extreme_crafting_table:
+    name: "&4&l終極工作臺"
+    lore:
+      0: "&7傳說之終極合成臺。"
+      1: "&7可合成萬物。"
+      2: "&7&o\"創造之極，想像之極也\""
+  
+  neutron_collector:
+    name: "&b中子態素收集器"
+    lore:
+      0: "&7高科技能量收集之器。"
+      1: "&7可捕獲並儲存中子態素。"
+      2: "&e右擊以觀進度"
+  
+  neutron_dust:
+    name: "&b中子素塵埃"
+    lore:
+      0: "&7自虛空收集之神秘微粒。"
+      1: "&7蘊藏巨大能量。"
+  
+  neutron_nugget:
+    name: "&b中子態素粒"
+    lore:
+      0: "&7壓縮之中子素塵埃。"
+  
+  neutron_ingot:
+    name: "&b中子錠"
+    lore:
+      0: "&7高密度之中子態素。"
+  
+  neutronium_block:
+    name: "&b中子態素磚"
+    lore:
+      0: "&7極其緻密之中子態素。"
+  
+
+  
+  neutronium_compressor:
+    name: "&6中子態素壓縮機"
+    lore:
+      0: "&7可將礦物壓縮為奇點。"
+      1: "&7需大量同類礦物方可生成。"
+      2: "&e右擊以用"
+  
+  singularity:
+    lore:
+      0: "&7物質之極壓形態。"
+  
+  iron_singularity:
+    name: "&f鐵之奇點"
+  
+  gold_singularity:
+    name: "&6金之奇點"
+  
+  lapis_singularity:
+    name: "&9青金石之奇點"
+  
+  redstone_singularity:
+    name: "&c紅石之奇點"
+  
+  quartz_singularity:
+    name: "&f石英之奇點"
+  
+  copper_singularity:
+    name: "&6銅之奇點"
+  
+  diamond_singularity:
+    name: "&b鑽石之奇點"
+  
+  emerald_singularity:
+    name: "&a綠寶石之奇點"
+  
+  cosmic_meatballs:
+    name: "&5&l寰宇肉丸"
+    lore:
+      0: "&7以宇宙之能烹飪之極致美饌。"
+      1: "&6食之可飽腹且溢滿"
+      2: "&c力量 II (五分鐘)"
+  
+  ultimate_stew:
+    name: "&6&l超級煲"
+    lore:
+      0: "&7匯聚天下食材之頂級羹湯。"
+      1: "&6食之飽腹且大量溢滿"
+      2: "&d生命恢復 II (五分鐘)"
+  
+  infinity_catalyst:
+    name: "&d&l無盡催化"
+    lore:
+      0: "&7聚諸奇點之精元。"
+      1: "&5可煉無盡之錠"
+  
+  infinity_ingot:
+    name: "&b&l無盡之錠"
+    lore:
+      0: "&7超脫萬物之無盡質料。"
+      1: "&5可鑄無盡兵刃"
+  
+  infinity_block:
+    name: "&b&l無盡之塊"
+    lore:
+      0: "&7無盡能量之凝聚體。"
+  
+  endest_pearl:
+    name: "&5&l終望之珠"
+    lore:
+      0: "&7蘊藏毀滅之力的終極珍珠。"
+      1: "&c擲之生黑洞，吞噬萬物"
+      2: "&4終成大爆破，天崩地裂！"
+
+  coal_singularity:
+    name: "&8煤炭奇點"
+    lore:
+      0: "&8壓縮無數煤炭磚之超密質點"
+
+  world_breaker:
+    name: "&b&l世界崩解之鎬"
+    lore:
+      0: "&7擁九千九百九十九耐久之無盡鎬。"
+      1: "&6按蹲右擊可切換鎬錘模式"
+      2: "&5附帶時運 X 之效"
+  
+  planet_heaver:
+    name: "&b&l天堂顛覆之鏟"
+    lore:
+      0: "&7強大得可顛覆星球之鏟。"
+      1: "&6大範圍掘土沙等方塊"
+  
+  natures_ruin:
+    name: "&b&l自然破壞之斧"
+    lore:
+      0: "&7摧毀自然之終極伐木斧。"
+      1: "&6一鍵砍倒整株樹木"
+  
+  hoe_of_the_stars:
+    name: "&b&l星球吞噬之鋤"
+    lore:
+      0: "&7蘊吞噬星球之力的鋤頭。"
+      1: "&6九乘九範圍耕地，超大範圍"
+  
+  sword_of_the_cosmos:
+    name: "&b&l末日之刃"
+    lore:
+      0: "&7寰宇終結之毀滅劍。"
+      1: "&c造極高傷害，一擊斃命"
+  
+  skullfire_sword:
+    name: "&5&l骷髏劍"
+    lore:
+      0: "&7燃燒靈魂之火的骷髏劍。"
+      1: "&e擊殺生物必掉首級"
+  
+  infinity_bow:
+    name: "&b&l無盡弓"
+    lore:
+      0: "&7射出無盡箭矢之神弓。"
+      1: "&6無需箭矢，無限射擊"
+  
+  infinity_helmet:
+    name: "&b&l無盡兜鍪"
+    lore:
+      0: "&7無盡之力鑄造之兜鍪。"
+      1: "&6提供完全防護，免疫諸傷"
+      2: "&c甚可抵禦誅殺之令！"
+  
+  infinity_chestplate:
+    name: "&b&l無盡鎧甲"
+    lore:
+      0: "&7無盡之力鑄造之鎧甲。"
+      1: "&6提供完全防護，免疫諸傷"
+      2: "&c甚可抵禦末日之刃！"
+  
+  infinity_leggings:
+    name: "&b&l無盡護腿"
+    lore:
+      0: "&7無盡之力鑄造之護腿。"
+      1: "&6提供完全防護，免疫諸傷"
+  
+  infinity_boots:
+    name: "&b&l無盡靴履 &4S&6A&eN&aI&bC"
+    lore:
+      0: "&7無盡之力鑄造之靴履。"
+      1: "&6提供完全防護，免疫諸傷"
+  
+  matter_cluster:
+    name: "&d&l物質團"
+    lore:
+      0: "&7右擊釋放所有收集之物"
+
+materials:
+  IRON_INGOT: "鐵錠"
+  IRON_BLOCK: "鐵磚"
+  GOLD_INGOT: "金錠"
+  GOLD_BLOCK: "金磚"
+  LAPIS_LAZULI: "青金石"
+  LAPIS_BLOCK: "青金磚"
+  REDSTONE: "紅石粉"
+  REDSTONE_BLOCK: "紅石磚"
+  QUARTZ: "石英"
+  QUARTZ_BLOCK: "石英磚"
+  COPPER_INGOT: "銅錠"
+  COPPER_BLOCK: "銅磚"
+  DIAMOND: "鑽石"
+  DIAMOND_BLOCK: "鑽石磚"
+  EMERALD: "綠寶石"
+  EMERALD_BLOCK: "綠寶石磚"
+  NETHER_STAR: "獄星"
+  CRAFTING_TABLE: "工作臺"
+  BEACON: "信標"
+  IRON_NUGGET: "鐵粒"
+  GOLD_NUGGET: "金粒"
+  BEEF: "生牛肉"
+  CHICKEN: "生雞肉"
+  PORKCHOP: "生豬排"
+  RABBIT: "生兔肉"
+  COD: "生鱈魚"
+  WHEAT: "小麥"
+  CARROT: "胡蘿蔔"
+  POTATO: "馬鈴薯"
+  RED_MUSHROOM: "紅蘑菇"
+  BROWN_MUSHROOM: "棕蘑菇"
+  NETHER_WART: "獄疣"
+  HOPPER: "漏斗"
+
+extreme_table_gui:
+  current_item: "&e&l當前合成之物: &r{0}"
+  required_materials: "&7所需材料:"
+  put_materials: "&a將材料置於GUI中"
+  click_to_craft: "&a條件滿足後點綠寶石磚以合成"
+  materials_insufficient: "&c材料不足"
+  put_required_materials: "&7請置入所需材料"
+  click_craft: "&a&l點擊以合成"
+  materials_satisfied: "&7材料已足"
+  craft_success: "&a成功合成: {0}"
+
+neutron_collector_gui:
+  title: "&b中子態素收集器"
+  progress: "&a進度: &f{0}%"
+  time_remaining: "&7尚餘時間: &f{0}秒"
+  click_to_collect: "&e點中央以取"
+  producing: "&a正在生產..."
+
+neutronium_compressor_gui:
+  title: "&6中子態素壓縮機"
+  current_item: "&e當前壓縮: &f{0}"
+  progress: "&a進度: &f{0}/{1} ({2}%)"
+  no_item: "&7未置物品"
+  put_material: "&7請置礦物磚以壓縮"
+  click_output: "&e點中央以取奇點"
+  compressing: "&a正在壓縮..."
+  wrong_material: "&c當前正壓縮 {0}，不可添他物！"
+  collected: "&a成功取奇點！"
+
+error:
+  file_not_found: "&c文件不存: {0}"
+  config_error: "&c經文有誤: {0}"
+  unknown_error: "&c未知之過: {0}"
+
+success:
+  operation_complete: "&a事畢！"
+  file_saved: "&a文件已存: {0}"
+
+gui:
+  usage_header: "&6=== GUI令之用法 ==="
+  usage_edit: "&e/gui edit <大小> &7- 編GUI"
+  usage_look: "&e/gui look <大小> &7- 觀GUI"
+  usage_new: "&e/gui new <大小> &7- 造GUI"
+  size_note: "&7大小可為一至五十四"
+  size_examples: "&7常用: 1(單格), 5(小), 9(單行), 18(雙行), 27(三行), 54(大箱)"
+  invalid_size: "&c大小之引數無效: {0}"
+  invalid_size_range: "&c大小 {0} 無效！須介於一至五十四"
+  edit_title: "編GUI ({0}槽)"
+  view_title: "觀GUI ({0}槽)"
+  new_title: "造GUI ({0}槽)"
+  edit_opened: "&a已開編模式GUI，大小: {0}槽"
+  view_opened: "&a已開觀模式GUI，大小: {0}槽"
+  new_opened: "&a已開造模式GUI，大小: {0}槽"
+  edit_closed: "&7編模式已閉"
+  view_closed: "&7觀模式已閉"
+  new_closed: "&7造模式已閉"
+  view_mode_readonly: "&c觀模式下不可易物！"
+  item_modified: "&7物已易"
+
+command:
+  help:
+    header: "&6=== 無盡貪婪令 ==="
+    nbtdebug: "&e/avaritia nbtdebug &7- 示手中之物NBT"
+    language: "&e/avaritia language <語言> &7- 易言"
+    gui: "&e/avaritia gui <edit|look|new> <大小> &7- 開GUI編輯器"
+    version: "&e/avaritia version &7- 示版本"
+    reload: "&e/avaritia reload &7- 再載經文"
+    footer: "&7別名: &enbt, lang, menu"
+  reload:
+    success: "&a經文再載為功！"
+
+block:
+  place_disabled: "&c為伺服器效能計，不許置此磚！"
+  place_disabled_hint: "&7提示：管理員可於config.yml設allow_place_block: true以許置"
+  extreme_table_placed: "&a已置終極工作臺！"
+  extreme_table_broken: "&a已毀終極工作臺！"

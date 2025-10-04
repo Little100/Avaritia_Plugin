@@ -1,0 +1,42 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+gradle
+
+# IDEs and editors
+.idea/
+*.iml
+*.ipr
+*.iws
+*.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# Bin and libs
+bin/
+libs/
+
+# Other
+*.bak
+*.old
+
+# Ignore generated sources
+build/
+generated/
+tmp/
